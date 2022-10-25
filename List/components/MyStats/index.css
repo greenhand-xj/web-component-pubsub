@@ -1,0 +1,10 @@
+:host {
+    display: block;
+    border: var(--border-width) solid var(--text-color);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+}
+
+div {
+    font-size: 1.4rem;
+}

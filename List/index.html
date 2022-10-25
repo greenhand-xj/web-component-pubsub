@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript PubSub设计模式</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+    :root {
+      --border-width: 5px;
+      --border-radius: 1rem;
+        --text-color: #555;
+    }
+    body {
+        padding: 2rem;
+        font-family: Montserrat;
+        display: grid;
+        grid-template-columns: 2fr 1.5fr 1.5fr;
+        align-items: stretch;
+        gap: 1rem;
+        min-height: 50vh;
+    }
+
+    my-stats {
+        margin-top: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div>
+    <manage-form></manage-form>
+    <my-stats></my-stats>
+  </div>
+  <learning-list></learning-list>
+  <todo-list></todo-list>
+
+  <script src="./app.js" type="module"></script>
+</body>
+</html>

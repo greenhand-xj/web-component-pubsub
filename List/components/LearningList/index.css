@@ -1,0 +1,18 @@
+:host {
+    display: block;
+    border: var(--border-width) solid LightSeaGreen;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+}
+
+h2 {
+    margin-top: 0;
+}
+ul{
+    padding-left: 0;
+    font-size: 1.2rem;
+    color: var(--text-color);
+}
+ul li {
+    cursor: pointer;
+}
